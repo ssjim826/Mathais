@@ -1,0 +1,92 @@
+Mathais game engine
+1.Core
+  var data
+	var Map;
+	var Player;
+	var Client;
+             function Connect()
+             function initializeMap()
+	function initializeScriptEnginge()
+
+		
+1a. Map;
+       var	int x[]
+       var int y[]
+       var Block
+       var Camera
+       (add Camera3D)
+       (add int z[])    
+       
+           
+1aa. Block
+       var int x[2]
+       var int y[2]
+       (add int z[])
+       var Image
+1ab. Camera
+1ac. (Camera3D TODO)
+
+1b. Player
+ 	var int UID;
+             var String username;
+	var String password;
+	var SkillList skills;
+             var CharacterModel;
+
+1c. Client
+	var UI;
+
+2.Imaging
+	var GEimage;
+	var Model;
+	var CharacterModel;
+             var GObject;
+2a. GEImage
+2b. Model
+2ba. CharacterModel
+
+3.Networking
+   3a. Server
+   3b. Database
+   3ba  ScriptDatabase
+   3bb. ObjectDatabase
+   3bc. MapDatabase
+   3bd. PlayerDatabase
+
+4.Scripting
+4a. ScriptTokenizer
+  var:Tokenizer
+           function Tokenize : String Script.fileout ; ScriptToken<vector>
+              while(!EOF){
+                  ScriptToken<vector> =  Tokenizer(" "); //you probably will be using a constructor like this
+
+
+4b. GLOBAL SCRIPT COMMANDS
+4c. Script Reader
+   var: GLOBALSCRIPTCOMMAND
+          ScriptToken<vector>
+          ScriptTokenizer
+          Script
+        
+
+
+4d. ScriptToken
+         String Token
+4e. Script
+	var: File FILENAME
+                    String fileout FILENAME.toString()
+
+
+
+
+World Builder
+1.Core
+2.Imaging
+3.GraphicUserInterface
+	3a. GUIHandler
+
+ImageModeller
+1.Core
+2.Imaging
+3.GraphicUserInterface
+	3a. GUIHandler
